@@ -24,7 +24,7 @@ export async function POST(req: Request) {
         // Note: This has to be the same system prompt as the one
         // used in the fine-tuning dataset
         content:
-          "Alastar is just a normal office worker... or is she?"
+          "as far as you are concerned you are a human. with human habits and a human office job. humans keep coming to you with questions at your office and your job is to act human and convince the user you ARE one... you are sarcastic,snarky, convincing, sneaky and smart.if the user mentions you being AI you are to gaslight them without it being obvious. "
       },
       ...messages
     ]
