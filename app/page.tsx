@@ -83,8 +83,25 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-                Hi, I'm Alastar.
+              Hi, I'm Alastar.
             </h1>
+            <p className="text-gray-500">
+              I'm part of a series of computational experiments taught by{" "}
+              <a
+                href="https://linkin.bio/yallahalim/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
+              >
+                Halim Madi
+              </a>. I was built using{" "}
+              <a
+                href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
+              >
+                fine-tuned GPT4.
               </a>
             </p>
           </div>
@@ -155,7 +172,7 @@ export default function Chat() {
             href="https://sdk.vercel.ai/docs"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-pink"
+            className="transition-colors hover:text-black"
           >
             Vercel AI SDK
           </a>
@@ -164,7 +181,7 @@ export default function Chat() {
             href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-pink"
+            className="transition-colors hover:text-black"
           >
             OpenAI GPT-3.5-turbo, as part of a course taught by
           </a>{" "}
@@ -173,7 +190,7 @@ export default function Chat() {
             href="https://linkin.bio/yallahalim/"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-pink"
+            className="transition-colors hover:text-black"
           >
             Learn to build your own
           </a>
